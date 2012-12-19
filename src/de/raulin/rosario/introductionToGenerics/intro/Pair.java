@@ -27,7 +27,7 @@ public final class Pair<T1, T2> {
 	}
 	
 	public static void main(String[] args) {
-		final Pair<String, Integer> p1 = new Pair<String, Integer>("Kilian", 20);
+		final Pair<String, Integer> p1 = new Pair<String, Integer>("Kilian", 21);
 		final Pair<String, Integer> p2 = new Pair<String, Integer>("Rosario", 20);
 		
 		System.out.println(p1);

@@ -8,8 +8,8 @@ public final class TheProblem {
 
 	public static int fac(final int n) {
 		// Precondition: n >= 0!
-		// What do we do if the user enter n < 0?
-		// We could return a special value to signal this.
+		// What do we do if the user enters n < 0?
+		// We could return a special value to signal this!
 		if (n < 0) {
 			return -1;
 		}

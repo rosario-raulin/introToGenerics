@@ -29,7 +29,7 @@ public final class NoConstructors {
 		System.out.println(x);
 		
 		final Person y = getObject(new PersonFactory());
-		y.setAge(20);
+		y.setAge(21);
 		y.setName("Kilian");
 		System.out.println(y);
 	}
